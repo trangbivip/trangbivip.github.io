@@ -1,0 +1,829 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Revelio Theme | Shortcodes</title>
+		<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta property="og:type" content="company" />
+		<meta property="og:title" content="Revelio Theme | Homepage" />
+		<meta property="og:image" content="" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="http://datcouch.com" />
+		<meta property="og:site_name" content="Revelio Theme | Homepage" />
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/dat-menu.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/main-stylesheet.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:300,400,700|Source+Sans+Pro:300,400,600,700&amp;subset=latin,latin-ext" />
+		<!--[if lt IE 9 ]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			/* Man content & sidebar top lne, default #256193 */
+			#sidebar .panel,
+			#main-box #main {
+				border-top: 5px solid #256193;
+			}
+
+			/* Slider colors, default #256193 */
+			a.featured-select,
+			#slider-info .padding-box ul li:before,
+			.home-article.right ul li a:hover {
+				background-color: #256193;
+			}
+
+			/* Button color, default #256193 */
+			.panel-duel-voting .panel-duel-vote a {
+				background-color: #256193;
+			}
+
+			/* Menu background color, default #000 */
+			#menu-bottom.blurred #menu > .blur-before:after {
+				background-color: #000;
+			}
+
+			/* Top menu background, default #0D0D0D */
+			#header-top {
+				background: #0D0D0D;
+			}
+
+			/* Sidebar panel titles color, default #333333 */
+			#sidebar .panel > h2 {
+				color: #333333;
+			}
+
+			/* Main titles color, default #353535 */
+			#main h2 span {
+				color: #353535;
+			}
+
+			/* Selection color, default #256193 */
+			::selection {
+				background: #256193;
+			}
+
+			/* Links hover color, default #256193 */
+			.article-icons a:hover,
+			a:hover {
+				color: #256193;
+			}
+
+			/* Image hover background, default #256193 */
+			.article-image-out,
+			.article-image {
+				background: #256193;
+			}
+
+			/* Image hover icons color, default #256193 */
+			span.article-image span .fa {
+				color: #256193;
+			}
+		</style>
+	</head>
+	<body class="no-slider">
+	<!-- <body class="has-top-menu"> -->
+		<!-- BEGIN #slider-imgs -->
+		<div id="slider-imgs">
+			<div class="featured-img-box">
+				<div id="featured-img-1" class="featured-img"></div>
+				<div id="featured-img-2" class="featured-img invisible"></div>
+				<div id="featured-img-3" class="featured-img invisible"></div>
+				<div id="featured-img-4" class="featured-img invisible"></div>
+			</div>
+		<!-- END #slider-imgs -->
+		</div>
+
+		<!-- BEGIN #top-layer -->
+		<div id="top-layer">
+			<div id="header-top">
+				<div class="wrapper">
+					<ul class="right">
+						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitch"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-steam"></i></a></li>
+					</ul>
+					<ul class="load-responsive" rel="Top menu">
+						<li><a href="podcasts.html">Podcasts</a></li>
+						<li><a href="messages.html"><span>Private messages</span></a>
+							<ul class="sub-menu">
+								<li><a href="messages.html">Conversation list</a></li>
+								<li><a href="messages-conversation.html">Single conversation</a></li>
+								<li><a href="messages-write.html">Start new conversation</a></li>
+							</ul>
+						</li>
+						<li><a href="#drop-the-bass">Read Later<small>2</small></a>
+							<div class="drop">
+								<div class="notify-header">Articles I should to read later</div>
+								<!-- <div class="nofify-empty">
+									<i class="fa fa-folder-open-o"></i>
+									<b>No articles here yet</b>
+									<span>You can save articles to read them later</span>
+								</div> -->
+								<ol class="notify-list">
+									<li>
+										<a href="post.html" class="notify-content">
+											<span class="article-thumb"><img src="images/photos/image-35.jpg" alt="" /></span>
+											<span class="notify-head">
+												<span class="notify-user"><b>Lorem Ipsum</b></span>
+											</span>
+											<span class="notify-text">Facete eruditi an vis, vel utamur aliquid partiendo ex</span>
+											<span class="notify-date">11:22, Sep 11, 2012</span>
+										</a>
+									</li>
+									<li>
+										<a href="post.html" class="notify-content">
+											<span class="article-thumb"><img src="images/photos/image-36.jpg" alt="" /></span>
+											<span class="notify-head">
+												<span class="notify-user"><b>Lorem Ipsum 2</b></span>
+											</span>
+											<span class="notify-text">Te deserunt eleifend usu, patrioque eloquentiam qui in</span>
+											<span class="notify-date">11:22, Sep 11, 2012</span>
+										</a>
+									</li>
+								</ol>
+								<div class="notify-footer"><a href="#clear-read-later">Clear this list</a></div>
+							</div>
+						</li>
+						<li><a href="login.html">Login page</a></li>
+						<li><a href="#">Buy now</a></li>
+					</ul>
+				</div>
+			</div>
+			<section id="content">
+				<header id="header">
+					<div id="menu-bottom">
+						<!-- <nav id="menu" class="main-menu width-fluid"> -->
+						<nav id="menu" class="main-menu">
+							<div class="blur-before"></div>
+							<a href="index.html" class="header-logo left"><img src="images/logo.png" class="logo" alt="Revelio" title="" /></a>
+							<a href="#dat-menu" class="datmenu-prompt"><i class="fa fa-bars"></i>Show menu</a>
+							<ul class="load-responsive" rel="Main menu">
+								<li><a href="blog.html"><span><i class="fa fa-comment"></i><strong>Blog Page</strong></span></a>
+									<ul class="sub-menu">
+										<li><a href="post.html">Single Post</a></li>
+										<li><a href="post-left.html">Sidebar on Left side</a></li>
+										<li><a href="full-width.html">Full Width Page</a></li>
+									</ul>
+								</li>
+								<li><a href="calendar.html"><span><i class="fa fa-calendar-o"></i><strong>Schedule</strong></span></a>
+									<ul class="sub-menu">
+										<li><a href="calendar.html">Calendar</a></li>
+										<li><a href="events.html">Events List</a></li>
+										<li><a href="events-single.html">Event Single</a></li>
+									</ul>
+								</li>
+								<li><a href="shortcodes.html"><span><i class="fa fa-puzzle-piece"></i><strong>Features</strong></span></a>
+									<ul class="sub-menu">
+										<li><a href="shortcodes.html">Shortcodes</a></li>
+										<li><a href="login.html">Login page</a></li>
+										<li><a href="signup.html">Sign up page</a></li>
+										<li><a href="messages.html">Private messages</a></li>
+										<li><a href="games-single.html">Games detail page</a></li>
+										<li><a href="podcasts.html">Podcast list</a></li>
+										<li><a href="podcasts-single.html">Podcast single</a></li>
+										<li><a href="404-page.html">404 Page</a></li>
+									</ul>
+								</li>
+								<li><a href="photo-gallery.html"><i class="fa fa-camera-retro"></i><strong>Photo Gallery</strong></a></li>
+								<li><a href="forum.html"><span><i class="fa fa-comments-o"></i><strong>Forum layout</strong></span></a>
+									<ul class="sub-menu">
+										<li><a href="forum.html">Forums layout</a></li>
+										<li><a href="forum-threads.html">Forum threads list</a></li>
+										<li><a href="forum-single.html">Single forum topic</a></li>
+										<li><a href="forum-create.html">Create new topic</a></li>
+									</ul>
+								</li>
+								<li><a href="team.html"><span><i class="fa fa-users"></i><strong>Our Team</strong></span></a>
+									<ul class="sub-menu">
+										<li><a href="team.html">Team Members</a></li>
+										<li><a href="user-single.html">Member profile</a></li>
+										<li><a href="user-single-blog.html">Members personal blog</a></li>
+										<li><a href="user-single-guestbook.html">Member guest book</a></li>
+										<li><a href="user-single-friends.html">Member friends list</a></li>
+										<li><a href="user-single-instagram.html">Member Instagram photos</a></li>
+									</ul>
+								</li>
+								<li><a href="contact-us.html"><i class="fa fa-map-marker"></i><strong>Contact us</strong></a></li>
+								<!-- <li class="no-icon"><a href="#"><strong>Without icon</strong></a></li> -->
+							</ul>
+						</nav>
+					</div>
+
+					<div class="wrapper">
+						<div class="header-breadcrumbs">
+							<h2 class="right">Shortcodes</h2>
+							<ul>
+								<li><a href="index.html">Homepage</a></li>
+								<li>Shortcodes</li>
+							</ul>
+						</div>
+					</div>
+					
+				</header>
+				<div id="main-box">
+					
+					<!-- BEGIN #main -->
+					<div id="main">
+						
+						<h2><span>Theme Shortcodes</span></h2>
+						<div class="content-padding">
+
+							<div class="article-full">
+
+								<div class="article-content">
+
+									<h1>H1 Heading</h1>
+
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt adipiscing molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta.</p>
+
+									<h2>H2 Heading</h2>
+
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt adipiscing molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta.</p>
+
+									<h3>H3 Heading</h3>
+
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt adipiscing molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta.</p>
+
+									<h4>H4 Heading</h4>
+
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt adipiscing molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta.</p>
+									
+									<h5>H5 Heading</h5>
+
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt adipiscing molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta.</p>
+									
+									<h6>H6 Heading</h6>
+
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt adipiscing molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>List Styles</h2>
+
+									<ul class="fa-ul">
+										<li><i class="fa-li fa fa-angle-double-right"></i>Suspendisse a amet enim congue accumsan.</li>
+										<li><i class="fa-li fa fa-angle-double-right"></i>Integer aliquam suscipit tellus sagittis in.</li>
+										<li><i class="fa-li fa fa-angle-double-right"></i>Pellentesque sem elementum ornare.</li>
+										<li><i class="fa-li fa fa-angle-double-right"></i>Sed vel ante sit amet ipsum molestie adipiscing.</li>
+									</ul>
+									
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+
+									<ul class="fa-ul">
+										<li><i class="fa-li fa fa-hand-o-right"></i>Suspendisse a amet enim congue accumsan.</li>
+										<li><i class="fa-li fa fa-hand-o-right"></i>Integer aliquam suscipit tellus sagittis in.</li>
+										<li><i class="fa-li fa fa-hand-o-right"></i>Pellentesque sem elementum ornare.</li>
+										<li><i class="fa-li fa fa-hand-o-right"></i>Sed vel ante sit amet ipsum molestie adipiscing.</li>
+									</ul>
+									
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Caption Image</h2>
+
+									<div class="wp-caption aligncenter">
+										<a href="images/photos/image-29.jpg"><img alt="" src="images/photos/image-3.jpg"></a>
+										<p class="wp-caption-text">Ad assum tibique eum, sed diam scripta eruditi in.</p>
+									</div>
+									
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Button</h2>
+
+									<div class="split">
+										<div class="size3">
+											<p><a href="#" class="button">Button</a></p>
+											<p><a href="#" class="button big-size">Button</a></p>
+										</div>
+										<div class="size3">
+											<p><a href="#" class="button" style="background-color: #B1221C;">Button</a></p>
+											<p><a href="#" class="button big-size" style="background-color: #B1221C;">Button</a></p>
+										</div>
+										<div class="size3">
+											<p><a href="#" class="button" style="background-color: #519623;">Button</a></p>
+											<p><a href="#" class="button big-size" style="background-color: #519623;">Button</a></p>
+										</div>
+										<div class="size3">
+											<p><a href="#" class="button" style="background-color: #DB6D1D;">Button</a></p>
+											<p><a href="#" class="button big-size" style="background-color: #DB6D1D;">Button</a></p>
+										</div>
+									</div>
+									
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Quote</h2>
+
+									<blockquote>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincid Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum.</blockquote>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Photo gallery block</h2>
+
+									<div class="photo-gallery-shortcode">
+										<div class="thumbs-block">
+											<a href="photos-single.html"><img src="images/photos/image-61.jpg" alt="" /></a>
+											<a href="photos-single.html"><img src="images/photos/image-62.jpg" alt="" /></a>
+											<a href="photos-single.html"><img src="images/photos/image-63.jpg" alt="" /></a>
+											<a href="photos-single.html"><img src="images/photos/image-64.jpg" alt="" /></a>
+											<a href="photos-single.html"><i class="fa fa-camera"></i><span>View galery</span></a>
+										</div>
+										<a href="photos-single.html"><img src="images/photos/image-60.jpg" alt="" title="" /></a>
+									</div>
+									
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Info Messages</h2>
+
+									<div class="info-message">
+										<a href="#" class="close-info"><i class="fa fa-times"></i></a>
+										<p><strong>Information:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+									</div>
+
+									<div class="info-message" style="background-color: #75a226;">
+										<a href="#" class="close-info"><i class="fa fa-times"></i></a>
+										<p><strong>Success:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+									</div>
+
+									<div class="info-message" style="background-color: #a24026;">
+										<a href="#" class="close-info"><i class="fa fa-times"></i></a>
+										<p><strong>Error:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+									</div>
+									
+									<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Accordion</h2>
+
+									<div class="accordion">
+										<div class="accordion-tab active">
+											<a href="#">Ut enim ad minim veniam, quis nostrud exercitation ullamco quat.</a>
+											<div class="accordion-block">
+												<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+											</div>
+										</div>
+										<div class="accordion-tab">
+											<a href="#">Enim tota per in. Vim viris liberavisse te, nec te ipsum ullum ignota.</a>
+											<div class="accordion-block">
+												<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+											</div>
+										</div>
+										<div class="accordion-tab">
+											<a href="#">Nam nostrud nusquam recteque ei, te aeterno nusquam vis cu epicuri.</a>
+											<div class="accordion-block">
+												<p>Quisque non quam tortor. Vestibulum fermentum pulvinar tempor. Donec tincidunt molest. Nam vel leo orci. Donec endrerit scelerisque quam sem eu ipsum. Nam lacus enim, porta. Cu quot salutatus aliquando pri, iudico scriptorem reprehendunt ad sit.</p>
+											</div>
+										</div>
+									</div>
+
+									<p>Duo omnes oportere intellegebat at, et utamur iuvaret numquam per. Ex has summo dolor impetus. Vis iusto tantas ut, case essent repudiare mel eu. No mel fabellas definiebas, quando vivendo duo et. Viris labore contentiones in his.</p>
+									
+									<div class="breaking-line"></div>
+
+									<h2>Columns</h2>
+
+									<div class="split">
+										<div class="size6"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+										<div class="size6"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+									</div>
+
+									<div class="split">
+										<div class="size4"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+										<div class="size4"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+										<div class="size4"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+									</div>
+
+									<div class="split">
+										<div class="size3"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+										<div class="size3"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+										<div class="size3"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+										<div class="size3"><p>Pn modo integre philosophia nam, minim quando in cum, sea rebum audire numquam no. Movet propriae voluptaria duo ea, mea quem corpora te.</p></div>
+									</div>
+
+									<p>Lorem ipsum dolor sit amet, ea rebum aeterno qui, cum tale dicta nihil id. Ex eam simul altera. Te sea labores persequeris. An suscipit menandri vel, est error nullam dictas ne. Debet instructior ea pri, vis singulis antiopam consulatu ex.</p>
+
+								</div>
+							</div>
+
+						<!-- END .content-padding -->
+						</div>
+						
+
+					<!-- END #main -->
+					</div>
+					
+					<!-- BEGIN #sidebar -->
+					<aside id="sidebar">
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>We are social</h2>
+							<div class="panel-content socialize">
+								
+								<a href="#" target="_blank" class="strike-tooltip s-fb" title="Visit Facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" target="_blank" class="strike-tooltip s-tw" title="Visit Twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" target="_blank" class="strike-tooltip s-yt" title="Visit YouTube"><i class="fa fa-youtube-play"></i></a>
+								<a href="#" target="_blank" class="strike-tooltip s-tc" title="Visit Twitch"><i class="fa fa-twitch"></i></a>
+								<a href="#" target="_blank" class="strike-tooltip s-st" title="Visit Steam"><i class="fa fa-steam"></i></a>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>Upcoming Events</h2>
+							<div class="top-right"><a href="events.html">View all</a></div>
+							<div class="panel-content">
+								
+								<div class="panel-games-lobby">
+									<ol>
+										<li>
+											<div class="lobby-block" style="background:url(images/photos/image-38.jpg) no-repeat center;">
+												<span class="caption">Rualisque ex pri delenit</span>
+												<div class="join-button">
+													<a href="events-single.html">View event page</a>
+												</div>
+											</div>
+											<div class="lobby-info">
+												<span class="right">14.May 2013, 20:00</span>
+												<span class="left"><b class="countdown-text" rel="1428482400">Loading..</span></b>
+												<div class="clear-float"></div>
+											</div>
+										</li>
+
+										<li>
+											<div class="lobby-block" style="background:url(images/photos/image-37.jpg) no-repeat center;">
+												<span class="caption">Cu eam causae appetere inciderint</span>
+												<div class="join-button">
+													<a href="events-single.html">View event page</a>
+												</div>
+											</div>
+											<div class="lobby-info">
+												<span class="right">25.Okt 2013, 20:00</span>
+												<span class="left"><b class="countdown-text" rel="1428482400">Loading..</span></b>
+												<div class="clear-float"></div>
+											</div>
+										</li>
+									</ol>
+								</div>
+
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>Popular Articles</h2>
+							<div class="top-right"><a href="blog.html">View all</a></div>
+							<div class="panel-content">
+								
+								<div class="d-articles">
+									<div class="item">
+										<div class="item-header">
+											<a href="post.html"><img src="images/photos/image-95.jpg" alt="" /></a>
+										</div>
+										<div class="item-content">
+											<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+											<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-header">
+											<a href="post.html"><img src="images/photos/image-96.jpg" alt="" /></a>
+										</div>
+										<div class="item-content">
+											<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+											<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-header">
+											<a href="post.html"><img src="images/photos/image-97.jpg" alt="" /></a>
+										</div>				
+										<div class="item-content">
+											<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+											<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-header">
+											<a href="post.html"><img src="images/photos/image-98.jpg" alt="" /></a>
+										</div>				
+										<div class="item-content">
+											<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+											<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-header">
+											<a href="post.html"><img src="images/photos/image-99.jpg" alt="" /></a>
+										</div>				
+										<div class="item-content">
+											<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+											<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>We Accept Donations</h2>
+							<div class="panel-content">
+
+								<div class="donation-widget">
+									<p>Cu duo sale nobis. At sumo lorem vel. Has ne volumus deterruisset, id indoctum conclusionemque eos. Atomorum suscip iantur ex vim</p>
+									<hr />
+									<div class="donation-stats">
+										<h3>Our Goal is: <span class="value">$75'000,00</span></h3>
+										<div class="progress-bar">
+											<div class="border-bar">
+												<div class="the-progress" style="width: 75%;"><span>$0</span><strong>$56'250,00</strong></div>
+											</div>
+										</div>
+										<a href="#" target="_blank" class="button">Make a donation</a>
+									</div>
+								</div>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>Duel of the week</h2>
+							<div class="panel-content">
+
+								<div class="voting-line">
+									<div class="voting-left" style="width:70%;"><span>70%</span></div>
+									<div class="voting-right" style="width:30%;"><span>30%</span></div>
+									<div class="clear-float"></div>
+								</div>
+								
+								<div class="panel-duel">
+									<div class="panel-duel-block" style="background:url(images/photos/image-30.jpg) no-repeat center;">
+										<span class="caption">Tempor delenit</span>
+									</div>
+									<div class="panel-duel-block" style="background:url(images/photos/image-31.jpg) no-repeat center;">
+										<span class="caption">Pro ne harum postea</span>
+									</div>
+									<div class="duel-versus"></div>
+									<div class="clear-float"></div>
+								</div>
+								
+								<div class="panel-duel-voting">
+									<div class="panel-duel-vote">
+										<a href="#">Vote</a>
+									</div>
+									<div class="panel-duel-vote">
+										<a href="#">Vote</a>
+									</div>
+									<div class="clear-float"></div>
+								</div>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>Latest Comments</h2>
+							<div class="panel-content no-padding">
+							
+								<div class="new-forum-line">
+									<a href="user-single.html" class="avatar online user-tooltip">
+										<img src="images/photos/avatar-1.jpg" class="setborder" title="" alt="" />
+									</a>
+									<a href="forum-single.html" class="f_content">
+										<span class="sidebar-comments"><span>1</span></span>
+										<strong>Mesarchum signiferumque sea eu no harum definiebas quo</strong>
+										<span><b class="user-tooltip">marcisbee</b>, 20/12/2012</span>
+									</a>
+								</div>
+								
+								<div class="new-forum-line">
+									<a href="user-single.html" class="avatar online user-tooltip">
+										<img src="images/photos/avatar-2.jpg" class="setborder" title="" alt="" />
+									</a>
+									<a href="forum-single.html" class="f_content">
+										<span class="sidebar-comments inactive"><span>6</span></span>
+										<strong>Lorem ipsum dolor sit amet usu at</strong>
+										<span><b class="user-tooltip">minkka.</b>, 20/12/2012</span>
+									</a>
+								</div>
+								
+								<div class="new-forum-line">
+									<a href="user-single.html" class="avatar offline user-tooltip">
+										<img src="images/photos/avatar-3.jpg" class="setborder" title="" alt="" />
+									</a>
+									<a href="forum-single.html" class="f_content">
+										<span class="sidebar-comments"><span>21</span></span>
+										<strong>Propriae senserit erroribus pro ea</strong>
+										<span><b class="user-tooltip">Daviskrex</b>, 20/12/2012</span>
+									</a>
+								</div>
+								
+								<div class="new-forum-line">
+									<a href="user-single.html" class="avatar online user-tooltip">
+										<img src="images/photos/avatar-1.jpg" class="setborder" title="" alt="" />
+									</a>
+									<a href="forum-single.html" class="f_content">
+										<span class="sidebar-comments inactive"><span>103</span></span>
+										<strong>Ne vis oblique nominavi honestatis mea ex minim nemore</strong>
+										<span><b class="user-tooltip">marcisbee</b>, 20/12/2012</span>
+									</a>
+								</div>
+								
+								<div class="new-forum-line">
+									<a href="user-single.html" class="avatar away user-tooltip">
+										<img src="images/photos/avatar-4.jpg" class="setborder" title="" alt="" />
+									</a>
+									<a href="forum-single.html" class="f_content">
+										<span class="sidebar-comments inactive"><span>7</span></span>
+										<strong>Cu quaeque repudiare per nisl partiendo ullamcorper per an</strong>
+										<span><b class="user-tooltip">Paakjis</b>, 20/12/2012</span>
+									</a>
+								</div>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>Contact Information</h2>
+							<div class="panel-content">
+								
+								<div>
+									<h4>What do we stand for ?</h4>
+									<p>Soleat aperiam ex pri, at pericula constituam efficiantu per, voluptaria intellegam eu nec. Duo modus homero vivendum an, facete timeam ne eum.</p>
+
+									<a href="mailto:revelio@oursite.com" class="icon-line">
+										<i class="fa fa-comment"></i><span>revelio@oursite.com</span>
+									</a>
+				
+									<span class="icon-line">
+										<i class="fa fa-map-marker"></i><span>949 West Grassland Drive, UT 84003</span>
+									</span>
+				
+								</div>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+						<!-- BEGIN .panel -->
+						<div class="panel">
+							<h2>Tag Cloud</h2>
+							<div class="panel-content">
+								
+								<div class="tagcloud">
+									<a href="blog.html">sapien</a><a href="blog.html">scelerisque</a><a href="blog.html">sed</a><a href="blog.html">sem</a><a href="blog.html">senectus</a><a href="blog.html">sit</a><a href="blog.html">sodales</a><a href="blog.html">sollicitudin</a><a href="blog.html">tellus</a><a href="blog.html">tempus</a><a href="blog.html">tincidunt</a><a href="blog.html">tristique</a><a href="blog.html">ullamcorper</a><a href="blog.html">urna</a><a href="blog.html">ut</a><a href="blog.html">varius</a><a href="blog.html">vel</a><a href="blog.html">vivamus</a><a href="blog.html">viverra</a><a href="blog.html">volutpat</a>
+								</div>
+								
+							</div>
+						<!-- END .panel -->
+						</div>
+						
+					<!-- END #sidebar -->
+					</aside>
+					
+					<div class="clear-float"></div>
+					
+				</div>
+			</div>
+		</div>
+			
+		<div class="clear-float"></div>
+		
+		<div class="wrapper">
+			<!-- BEGIN .footer -->
+			<div class="footer">
+
+				<div class="footer-top"></div>
+				
+				<div class="footer-content">
+
+					<!-- BEGIN .panel -->
+					<div class="panel">
+						<h2>Popular Articles</h2>
+						<div class="top-right"><a href="blog.html">View all</a></div>
+						<div class="panel-content">
+							
+							<div class="d-articles">
+								<div class="item">
+									<div class="item-header">
+										<a href="post.html"><img src="images/photos/image-96.jpg" alt="" /></a>
+									</div>
+									<div class="item-content">
+										<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+										<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-header">
+										<a href="post.html"><img src="images/photos/image-97.jpg" alt="" /></a>
+									</div>
+									<div class="item-content">
+										<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+										<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-header">
+										<a href="post.html"><img src="images/photos/image-98.jpg" alt="" /></a>
+									</div>
+									<div class="item-content">
+										<h4><a href="post.html">Fermentum hac consectetur</a></h4>
+										<p>Sagittis ut eleifend taciti eleifend, mauris primis...</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					<!-- END .panel -->
+					</div>
+						
+					<!-- BEGIN .panel -->
+					<div class="panel">
+						<h2>Contact Information</h2>
+						<div class="panel-content">
+							
+							<div>
+								<h4>What do we stand for ?</h4>
+								<p>Soleat aperiam ex pri, at pericula constituam efficiantu per, voluptaria intellegam eu nec. Duo modus homero vivendum an, facete timeam ne eum.</p>
+
+								<a href="mailto:revelio@oursite.com" class="icon-line">
+									<i class="fa fa-comment"></i><span>revelio@oursite.com</span>
+								</a>
+			
+								<span class="icon-line">
+									<i class="fa fa-map-marker"></i><span>949 West Grassland Drive, UT 84003</span>
+								</span>
+			
+							</div>
+							
+						</div>
+					<!-- END .panel -->
+					</div>
+					
+					<!-- BEGIN .panel -->
+					<div class="panel">
+						<h2>Tag Cloud</h2>
+						<div class="panel-content">
+							
+							<div class="tagcloud">
+								<a href="post.html">sapien</a><a href="post.html">scelerisque</a><a href="post.html">sed</a><a href="post.html">sem</a><a href="post.html">senectus</a><a href="post.html">sit</a><a href="post.html">sodales</a><a href="post.html">sollicitudin</a><a href="post.html">tellus</a><a href="post.html">tempus</a><a href="post.html">tincidunt</a><a href="post.html">tristique</a><a href="post.html">ullamcorper</a><a href="post.html">urna</a><a href="post.html">ut</a><a href="post.html">varius</a><a href="post.html">vel</a><a href="post.html">vivamus</a><a href="post.html">viverra</a><a href="post.html">volutpat</a>
+							</div>
+							
+						</div>
+					<!-- END .panel -->
+					</div>
+
+				</div>
+
+				<div class="footer-bottom">
+					<div class="left">&copy; Copyright 2015 <strong>Revelio</strong> designed by <strong>datcouch.com</strong></div>
+					<div class="right">
+						<ul>
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="blog.html">Blog Page</a></li>
+							<li><a href="photo-gallery.html">Photo Gallery</a></li>
+							<li><a href="about.html">About</a></li>
+						</ul>
+					</div>
+					<div class="clear-float"></div>
+				</div>
+				
+			<!-- END .footer -->
+			</div>
+		</div>
+		<script type='text/javascript' src='jscript/jquery-1.11.2.min.js'></script>
+		<script type='text/javascript' src='jscript/modernizr.custom.50878.js'></script>
+		<script type='text/javascript' src='jscript/iscroll.js'></script>
+		<script type='text/javascript' src='jscript/dat-menu.js'></script>
+		<script type='text/javascript'>
+			var strike_autostart = false;
+		</script>
+		<script type='text/javascript' src='jscript/theme-script.js'></script>
+	</body>
+</html>
